@@ -6,7 +6,7 @@ import { queryCache, useQuery } from 'react-query';
 const queryKey = '12345';
 
 const Testpage = (props) => {
-	queryCache.setQueryData(queryKey, props.initialData);
+	// queryCache.setQueryData(queryKey, props.initialData);
 
 	console.log(props.initialData);
 
